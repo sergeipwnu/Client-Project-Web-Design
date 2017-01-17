@@ -127,7 +127,7 @@ src: url(../fonts/FUTRFW.ttf)
 	float:left;
 	width:25%;
 	margin:50 0 0 7%;
-	height:800px;
+	height:450px;
 	
 }
 .mapframe{
@@ -139,6 +139,14 @@ src: url(../fonts/FUTRFW.ttf)
 	font-family:Josefin Sans;
 	font-size:35px;
 	text-align:center;
+}
+.mapinfo_text
+{
+	width:100%;
+	height:400px;
+	padding:20px;
+	font-size:17px;
+	font-family:raleway;
 }
 .mm_w
 {
