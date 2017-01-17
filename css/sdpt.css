@@ -1,0 +1,71 @@
+@charset "utf-8";
+*{
+padding:0;
+margin:0;
+border:0;
+}
+
+.header
+{
+	width:1920px;
+	height:50px;
+	background:#3BE970;
+	-webkit-box-shadow: 0px 0px 29px -6px rgba(0,0,0,0.79);
+	-moz-box-shadow: 0px 0px 29px -6px rgba(0,0,0,0.79);
+	box-shadow: 0px 0px 29px -6px rgba(0,0,0,0.79);
+}
+.callnow_main
+{
+	float:right;
+	height:inherit;
+}
+.callnow_number
+{
+	float:right;
+	color:black;
+	font-family:Baloo Thambi;
+	font-size:35px;
+	margin:0 20 0 5;
+}
+.footer
+{
+	background:#929292;
+	width:1920px;
+	height:100px;
+}
+.main
+{
+	height:800px;
+	width:100%;
+}
+.main_banner_home
+{
+	width:100%;
+	height:500px;
+	position:relative;
+	background-color:#efefef;
+}
+.main_banner_home_mtext
+{
+	height:500px;
+	width:100%;
+	float:left;
+}
+.banner_white_text
+{
+	color:white;
+	font-size:40px;
+	font-family:Raleway;
+}
+.slideimg
+{
+	width:1100px;
+	height:100%;
+	float:right;
+}
+.main_infowrapper
+{
+	width:1920px;
+	height:250px;
+	margin:25 0 25 0;
+}
