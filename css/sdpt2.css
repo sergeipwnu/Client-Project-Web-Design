@@ -38,7 +38,7 @@ src: url(../fonts/FUTRFW.ttf)
 .headertext
 {
 	color:white;
-	font-size:20px;
+	font-size:26px;
 	font-family:Josefin Sans;
 }
 .callnow_main
@@ -62,7 +62,6 @@ src: url(../fonts/FUTRFW.ttf)
 }
 .main
 {
-	height:2380px;
 	width:100%;
 }
 .main_banner_home
@@ -152,7 +151,7 @@ src: url(../fonts/FUTRFW.ttf)
 {
 	
 	position:absolute;
-	top:30%;
+	top:30vh;
 	left:10%;
 	
 }
@@ -208,4 +207,40 @@ src: url(../fonts/FUTRFW.ttf)
 	width:1920px;
 	height:250px;
 	margin:25 0 25 0;
+}
+.sliding-u-l-r-l {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+.sliding-u-l-r-l:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0s ease, background .5s ease;
+}
+.sliding-u-l-r-l:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: #00C1FF;
+    transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:before {
+    width: 100%;
+    background: #00C1FF;
+    transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
 }
