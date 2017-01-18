@@ -1,0 +1,63 @@
+.headertext
+	{
+			color:white;
+	font-size:17px;
+	font-family:Josefin Sans;
+	}
+.content {
+  position: absolute;
+
+  transform: translate(-20%, -20%);
+  font-size: 50px;
+  line-height: 40px;
+  font-family: 'Lato', sans-serif;
+  color: #ecf0f1;
+  height: 160px;
+  overflow:hidden;
+}
+.mw_w_contact
+{
+	width:20%;
+	height:30px;
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Josefin Sans;
+	font-size:20px;
+	position:relative;
+	top:10px;
+	text-align:center;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.mm_w_text
+{
+	font-size:35px;
+	color:white;
+	
+	font-family:Julius Sans One;
+	
+}
+	.callnow_number
+{
+	float:right;
+	color:white;
+	font-family:Josefin Sans;
+	font-size:30px;
+	margin:15 20 25 5;
+}

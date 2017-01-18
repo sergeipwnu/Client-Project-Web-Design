@@ -1,0 +1,23 @@
+.callnow_main
+{
+	display:none;
+}
+.ql_text
+{
+	position:relative;
+	top:25%;
+	font-size:12px;
+	width:auto;
+	margin:0 auto;
+	text-align:center;
+	font-family:Raleway;
+	color:black;
+}
+	.ql_cont
+{
+	width:250px;
+	height:300px;
+	margin:0 auto;
+	display:block;
+	position:relative;
+}
