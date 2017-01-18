@@ -17,6 +17,11 @@ src: url(../../fonts/FUTRFW.ttf)
 {
 	width:1903px;
 }
+a
+{
+	text-decoration:none;
+	color:inherit;
+}
 .header
 {
 	width:100%;
@@ -82,6 +87,7 @@ src: url(../../fonts/FUTRFW.ttf)
 	color: #00C1FF; 
 	font-size:50px;
 	position:relative;
+	text-align:center;
 
 }
 .main_h_tsmall
@@ -94,7 +100,7 @@ src: url(../../fonts/FUTRFW.ttf)
 }
 .main_h
 {
-	width:1200px;
+	width:100%;
 	margin-top:3vh;
 }
 .sliding-u-l-r-l {
