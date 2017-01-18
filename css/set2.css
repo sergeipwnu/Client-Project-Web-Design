@@ -1,11 +1,12 @@
 .grid {
 	position: relative;
 	clear: both;
-	margin: 0 auto;
+	display:inline-block;
 	padding: 1em 0 4em;
 	max-width: 1000px;
 	list-style: none;
 	text-align: center;
+	margin-right:110;
 }
 
 /* Common style */
@@ -13,11 +14,11 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 10px 1%;
+	margin: 5px 10%;
 	min-width: 320px;
 	max-width: 480px;
 	max-height: 360px;
-	width: 48%;
+	width: 100%;
 	height: auto;
 	background: #3085a3;
 	text-align: center;
