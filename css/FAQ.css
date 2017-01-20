@@ -104,16 +104,28 @@ a
 	width:30vw;
 	margin:0 auto;
 	margin-top:0vh;
-	margin-bottom:4vh;
-	height:120px;
+	height:150px;
+	background-color:#DFDFDF;
+	border-radius:0px 0px 50px 50px;
 }
-.contactarea
+.faqtextarea
 {
 	width:95%;
 	height:650px;
 	margin:0 auto;
 	margin-top:15px;
 	padding:10px;
+	
+	
+}
+.faqbox
+{
+	display:inline-block;
+	width:25vw;
+	height:600px;
+	margin:5px;
+	background-color:#dfdfdf;
+	border-radius:10px;
 	
 }
 .sliding-u-l-r-l {
