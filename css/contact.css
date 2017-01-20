@@ -1,0 +1,165 @@
+@charset "utf-8";
+*{
+padding:0;
+margin:0;
+border:0;
+     user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+}
+@font-face{
+font-family: future;
+src: url(../../fonts/FUTRFW.ttf)	
+	}
+.html
+{
+	width:1903px;
+}
+a
+{
+	text-decoration:none;
+	color:inherit;
+}
+.header
+{
+	width:100%;
+	position:relative;
+	z-index:2;
+	border-bottom: 1px solid #B2B2B2;
+	-webkit-box-shadow: 0px -1px 53px -16px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 53px -16px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 53px -16px rgba(0,0,0,0.75);
+
+}
+.header_ul
+{
+	display:inline-block;
+	height:relative;
+	
+}
+.header_li
+{
+	display:inline-block;
+
+	margin:35 25 25 25;
+
+}
+
+.headertext
+{
+	color:black;
+	font-size:26px;
+	font-family:Josefin Sans;
+}
+.callnow_main
+{
+	float:right;
+	height:inherit;
+}
+.callnow_number
+{
+	float:right;
+	color:black;
+	font-family:Josefin Sans;
+	font-size:55px;
+	margin:15 20 25 5;
+}
+
+.main
+{
+	width:100%;
+	background-color:#F9F9F9;
+
+}
+.main_content
+{
+	width:95%;
+	margin:0 auto;
+	height: calc(100% - 112px);
+	position:relative;
+
+}
+.main_h_t
+{
+	font-family:Josefin Sans;
+	color: #00C1FF; 
+	font-size:55px;
+	position:relative;
+	padding-top:25px;
+	display:block;
+	
+}
+.map
+{
+	float:right;
+	width:700px;
+	height:700px;
+	background-color:red;
+}
+.main_h_tsmall
+{
+	font-family:Josefin Sans;
+	color: black; 
+	font-size:25px;
+	position:relative;
+	
+}
+.main_h
+{
+	width:30vw;
+	margin:0 auto;
+	margin-top:0vh;
+	margin-bottom:4vh;
+	height:120px;
+	background-color:#DFDFDF;
+	border-radius:0px 0px 50px 50px;
+}
+.textarea
+{
+	width:95%;
+	height:750px;
+	margin:0 auto;
+	margin-top:0px;
+	padding:40px;
+	
+}
+
+
+.sliding-u-l-r-l {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+.sliding-u-l-r-l:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0s ease, background .5s ease;
+}
+.sliding-u-l-r-l:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: #00C1FF;
+    transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:before {
+    width: 100%;
+    background: #00C1FF;
+    transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
