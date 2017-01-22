@@ -161,8 +161,8 @@ src: url(../fonts/FUTRFW.ttf)
 {
 	
 	position:absolute;
-	top:30vh;
-	left:10%;
+	top:20vh;
+	left:10vw;
 	
 }
 .mm_w_text
@@ -179,7 +179,7 @@ src: url(../fonts/FUTRFW.ttf)
 }
 .mw_w_contact
 {
-	width:370px;
+	width:280px;
 	height:30px;
 	-moz-box-shadow: 0px 10px 14px -7px #276873;
 	-webkit-box-shadow: 0px 10px 14px -7px #276873;
@@ -200,17 +200,15 @@ src: url(../fonts/FUTRFW.ttf)
 	color:#ffffff;
 	font-family:Josefin Sans;
 	font-size:20px;
-	position:relative;
-	top:10px;
+	position:absolute;
+	top:70px;
 	text-align:center;
-	padding:13px 32px;
+	padding:7px 32px 19px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #3d768a;
 }
 
-.mw_w_contact:active {
-	position:relative;
-	top:11px;
+
 }
 .main_infowrapper
 {
