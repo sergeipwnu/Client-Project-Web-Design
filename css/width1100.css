@@ -1,7 +1,7 @@
 .headertext
 	{
 	color:white;
-	font-size:20px;
+	font-size:25px;
 	font-family:Josefin Sans;
 	}
 	.mapframe{
@@ -9,16 +9,9 @@
   height:500px;
 }
 .content {
-  position: absolute;
-
-  transform: translate(-20%, -20%);
-  font-size: 50px;
-  line-height: 40px;
-  font-family: 'Lato', sans-serif;
-  color: #ecf0f1;
-  height: 160px;
-  overflow:hidden;
+	display:none;
 }
+
 .mapinfo
 {
 	display:none;
