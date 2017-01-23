@@ -85,7 +85,7 @@ src: url(../fonts/FUTRFW.ttf)
 {
 	width:100%;
 	height:relative;
-	background-color:#e2e2e2;
+	background-color:#00C1FF;
 	position:relative;
 	
 }
@@ -148,6 +148,7 @@ src: url(../fonts/FUTRFW.ttf)
 	font-family:Josefin Sans;
 	font-size:35px;
 	text-align:center;
+	padding-bottom:5px;
 }
 .mapinfo_text
 {
