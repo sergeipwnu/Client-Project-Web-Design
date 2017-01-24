@@ -89,6 +89,42 @@ a
 	position:relative;
 	margin:0 auto;
 }
+.sumheader_t
+{
+	font-family:Josefin Sans;
+	font-size:40px;
+	color:#00C1FF;
+	
+}
+.sumheader
+{
+	width:38vw;
+	height:5vh;
+	padding:10px;
+	border-bottom: 3px solid #00C1FF;
+	
+}
+.sumtext
+{
+	float:left;
+	width:40vw;
+	height:400px;
+	margin:20 20 20 0;
+	
+}
+.sum_t
+{
+	font-family:raleway;
+	font-size:19px;
+	font-color:black;
+}
+.sumimg
+{
+	float:right;
+	width:40vw;
+	height:40vh;
+	background-color:red;
+}
 .tobook
 {
 	background-color:#00C1FF;

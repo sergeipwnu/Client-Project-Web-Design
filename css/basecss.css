@@ -17,14 +17,16 @@ src: url(../../fonts/FUTRFW.ttf)
 {
 	width:1903px;
 }
-.heightgrid
+a
 {
-	height:283px;
+	text-decoration:none;
+	color:inherit;
 }
 .header
 {
 	width:100%;
 	position:relative;
+	z-index:2;
 	border-bottom: 1px solid #B2B2B2;
 	-webkit-box-shadow: 0px -1px 53px -16px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px -1px 53px -16px rgba(0,0,0,0.75);
@@ -73,34 +75,59 @@ src: url(../../fonts/FUTRFW.ttf)
 }
 .main_content
 {
-	width:95%;
+	width:100%;
 	margin:0 auto;
-	padding-top:20px;
 	height: calc(100% - 112px);
 	position:relative;
+	
 
 }
 .main_h_t
 {
 	font-family:Josefin Sans;
 	color: #00C1FF; 
-	font-size:50px;
-	position:relative;
-
+	font-size:55px;
+	padding-top:25px;
+	text-align:center;
+ 	display:block;
+	
 }
-.main_h_tsmall
+.namebanner
 {
+	width:100%;
+	height:100px;
+	background-color:#00C1FF;
+	padding:40 0 0 0;
+}
+.bannert
+{
+	font-size:45px;
+	color:white;
 	font-family:Josefin Sans;
-	color: black; 
-	font-size:25px;
-	position:relative;
+	text-align:center;
 	
 }
 .main_h
 {
-	width:100%;
-	margin-top:3vh;
+	width:30vw;
+	margin:0 auto;
+	margin-top:0vh;
+	margin-bottom:4vh;
+	height:120px;
+	background-color:#DFDFDF;
+	border-radius:0px 0px 50px 50px;
 }
+.textarea
+{
+	width:100%;
+	height:800px;
+	margin:0 auto;
+	margin-top:0px;
+	
+	
+}
+
+
 .sliding-u-l-r-l {
     display: inline-block;
     position: relative;
