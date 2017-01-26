@@ -1,0 +1,7 @@
+Changes made:
+
+added javascript animations for header
+added custom image frame with animations
+custom imported fonts
+created animation with keyframes
+added hover effects to certain buttons

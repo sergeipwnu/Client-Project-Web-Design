@@ -135,9 +135,9 @@ a
 .imagearea
 {
 	width:30%;
-	height:600px;
+	margin:50px 20 0 0;
 	padding:10px;
-	background-color:RED;
+	background-color:#00C1FF;
 	float:right;
 }
 
